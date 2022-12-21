@@ -1,0 +1,1 @@
+The first edition of my personal portfolio. It is a work in progress, and I will edit my README as I go.
