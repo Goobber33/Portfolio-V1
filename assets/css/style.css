@@ -8,8 +8,9 @@ body,
 html {
     height: 100%;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-image: url(/assets/images/Oceanside-pier1.png);
+    background-image: url(/assets/images/Oceanside-pier\ 2.jpeg);
     height: 100%;
+    background-color: rgb(26,39,45);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,7 +33,7 @@ html {
 }
 
 .header h1 .lio {
-    color: gray;
+    color: orange;
 }
 
 .navbar h1 {
@@ -64,33 +65,35 @@ html {
 
 .description {
     font-size: 1.5em;
-    padding: 30px;
+    padding: 2em;
     width: 40%;
+    letter-spacing: 1px;;
 }
 
 .description h1 {
     color: white;
-    padding: 30px;
+    text-decoration: underline orange;
+    text-underline-position: under;
+    padding: 0.3em;
+    margin-top: 30px;
 }
 
 .description p {
-    padding: 30px;
+    padding: 0.3em;
 }
 
-.side {
+.side p {
     font-family: tahoma;
-    display: flex;
-    justify-content: flex-end;
-    align-content: flex-end;
-    padding-top: 350px;
+    margin: 3rem;   
+    text-align: center;
+    padding-top: 400px;
     font-size: 1.5em;
-    padding-right: 300px;
-    color: #000814;
+    color: white;
 }
 
 span[data-descr] {
     position: relative;
-    color: #000814;
+    color: orange;
     cursor: help;
 }
 
