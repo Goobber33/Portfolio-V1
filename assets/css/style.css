@@ -18,13 +18,24 @@ html {
 .header {
     font-family: tahoma;
     width: 100%;
-    background-color: #000814;
     padding-left: 10px;
     padding-right: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+.header h1:after {
+    content: '';  
+    background-color: orange;  
+    height: 2px;  
+    display: block;  
+    position: absolute;  
+    top: 32px;  
+    left:5.7em;  
+    width: 62%;
+  }
+  
 
 .header h1 {
     font-size: 48px;
@@ -112,6 +123,64 @@ span[data-descr]:focus::after {
     z-index: 1;
 }
 
+.surfboards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 7em;
+    padding: 4em;
+
+}
+
+.surfone {
+    transition: all 0.1s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+}
+
+.surfone:hover {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+
+
+}
+
+.surftwo {
+    transition: all 0.1s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+}
+
+.surftwo:hover {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+}
+
+.surfthree {
+    transition: all 0.1s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+}
+
+.surfthree:hover {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+}
+
+
+
 /* Large interactive image of myself */
 
 .flex-one {
@@ -145,16 +214,29 @@ span[data-descr]:focus::after {
 /* Footer styling */
 
 .footer {
+    background-image: url(/assets/images/surfboard.png);
+    height: 100%;
+    background-color: rgb(26,39,45);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-left: 30px;
     padding-right: 10px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    background-color: #000814;
-    width: 100%;
 }
 
 .footer h2 {
+    padding-top: 23em;
     font-size: 20px;
     color: white;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .header h1{
+      position: -webkit-sticky;
+      position: sticky;
+      bottom:0;
+    }
 }
