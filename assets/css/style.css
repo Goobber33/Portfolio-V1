@@ -188,12 +188,19 @@ span[data-descr]:focus::after {
 /* Large interactive image of myself */
 
 .flex-one {
+    font-size: 24px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 10em;
+}
+
+.flex-one p {
+    color:white;
+    padding-right: 10em;
 }
 
 .flex-one img {
-    padding: 4em;
+    padding-left: 4em;
     transition: all 0.1s;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
