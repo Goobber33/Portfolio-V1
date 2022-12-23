@@ -127,11 +127,9 @@ span[data-descr]:focus::after {
 
 .surfboards {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly;;
     flex-wrap: wrap;
     padding-top: 7em;
-    padding: 4em;
-
 }
 
 /* Surfboard one on the far left */
@@ -185,7 +183,7 @@ span[data-descr]:focus::after {
     -moz-filter: grayscale(0%);
 }
 
-/* Large interactive image of myself */
+/* Large interactive image of myself, and the paragrph to the right of it */
 
 .flex-one {
     font-size: 24px;
