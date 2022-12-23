@@ -90,15 +90,8 @@ html {
 
 .description p {
     padding: 0.3em;
-}
-
-.side p {
+    color: rgb(26,39,45);
     font-family: tahoma;
-    margin: 3rem;   
-    text-align: center;
-    padding-top: 400px;
-    font-size: 1.5em;
-    color: white;
 }
 
 span[data-descr] {
@@ -123,6 +116,51 @@ span[data-descr]:focus::after {
     z-index: 1;
 }
 
+/* Large interactive image of myself, and the paragrph to the right of it */
+
+.flex-one {
+    font-size: 24px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 18em;
+}
+
+.flex-one p {
+    color:white;
+    padding-right: 10em;
+}
+
+.flex-one img {
+    padding-left: 4em;
+    transition: all 0.1s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+}
+
+.flex-one img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+}
+
+.flex-one img:hover {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+}
+
+.side p {
+    font-family: tahoma;
+    margin: 3rem;   
+    text-align: center;
+    padding-top: 100px;
+    font-size: 1.5em;
+    color: white;
+}
+
 /* Three surfboard section */
 
 .surfboards {
@@ -130,6 +168,7 @@ span[data-descr]:focus::after {
     justify-content: space-evenly;;
     flex-wrap: wrap;
     padding-top: 7em;
+    padding-right: 3.5em;
 }
 
 /* Surfboard one on the far left */
@@ -183,41 +222,28 @@ span[data-descr]:focus::after {
     -moz-filter: grayscale(0%);
 }
 
-/* Large interactive image of myself, and the paragrph to the right of it */
+/* Projects section */
 
-.flex-one {
-    font-size: 24px;
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 10em;
+.projects {
+    padding-left: 5em;;
+    padding-top: 15em;
+    padding-bottom: 20em;
 }
 
-.flex-one p {
-    color:white;
-    padding-right: 10em;
+.projects h1 {
+    color: white;
+    padding-bottom: 3em;
+    font-size: 60px;
+    text-align: center;
+    padding-right: 2em;
+    text-decoration: underline orange;
+    text-underline-position: under;
 }
 
-.flex-one img {
-    padding-left: 4em;
-    transition: all 0.1s;
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-}
-
-.flex-one img {
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-}
-
-.flex-one img:hover {
-    filter: grayscale(0%);
-    -webkit-filter: grayscale(0%);
-    -moz-filter: grayscale(0%);
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-}
+ .projectone, .projecttwo, .projectthree, .projectfour {
+    height: 28em;
+    padding: 1.7em;
+ }
 
 /* Footer styling */
 
