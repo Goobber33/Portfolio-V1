@@ -123,6 +123,8 @@ span[data-descr]:focus::after {
     z-index: 1;
 }
 
+/* Three surfboard section */
+
 .surfboards {
     display: flex;
     justify-content: space-evenly;
@@ -131,6 +133,8 @@ span[data-descr]:focus::after {
     padding: 4em;
 
 }
+
+/* Surfboard one on the far left */
 
 .surfone {
     transition: all 0.1s;
@@ -145,9 +149,9 @@ span[data-descr]:focus::after {
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
     -moz-filter: grayscale(0%);
-
-
 }
+
+/* Surfboard two in the middle */
 
 .surftwo {
     transition: all 0.1s;
@@ -164,6 +168,8 @@ span[data-descr]:focus::after {
     -moz-filter: grayscale(0%);
 }
 
+/* Surfboard three on the far right */
+
 .surfthree {
     transition: all 0.1s;
     -webkit-transition: all 0.2s;
@@ -179,15 +185,12 @@ span[data-descr]:focus::after {
     -moz-filter: grayscale(0%);
 }
 
-
-
 /* Large interactive image of myself */
 
 .flex-one {
     display: flex;
     justify-content: center;
 }
-
 
 .flex-one img {
     padding: 4em;
