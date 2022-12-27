@@ -322,6 +322,35 @@ span[data-descr]:focus::after {
     }
 }
 
+@media screen and (max-width: 430px) {
+
+    .header h1 {
+        font-size: 25px;
+    }
+
+    .nav-links li a {
+        font-size: 16px;
+    }
+
+    .description h1 {
+        font-size: 25px;
+    }
+
+    .flex-one img {
+        max-height: 200px;
+        padding-right: 1px;
+    }
+
+    .surfone {
+        max-width: 200px;
+    }
+
+    .projects img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+}
+
 @media screen and (max-width: 768px) {
 
     .flex-one {
