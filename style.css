@@ -300,15 +300,7 @@ span[data-descr]:focus::after {
         padding-top: 35em;
     }
 
-    .surftwo {
-        display: none;
-    }
-
-    .surfthree {
-        display: none;
-    }
-
-    .torchone {
+    .surftwo, .surfthree, .torchone {
         display: none;
     }
 
@@ -316,6 +308,10 @@ span[data-descr]:focus::after {
         min-width: 100%;
         max-width: 100%;
         min-width: 20vh;
+    }
+
+    .flex-one {
+        padding-top: 380px;
     }
 
     .flex-one img {
@@ -326,12 +322,48 @@ span[data-descr]:focus::after {
         padding: 40px;
     }
 
+    .footer h2 {
+        padding-left: 3.4em;
+        font-size: 12.7px;
+    }
+
     footer {
         background-image: url(/assets/images/surfboard.png);
         max-height: 60%;
     }
+}
+
+@media screen and (max-width: 827px) {
+
+.description p {
+    font-size: 15px;
+}
+
+    .surfthree, .torchone, .surftwo {
+        display: none;
+    }
+
+    .flex-one {
+        padding-top: 300px;
+    }
+
+    .flex-one p {
+        font-size: 15px;
+    }
+
+    .flex-one img {
+        max-width: 40%;
+    }
+
+    .side p {
+        font-size: 15px;
+    }
+
+    .projects h1 {
+        font-size: 40px;
+    }
 
     .footer h2 {
-        padding-left: 3.4em;
+        font-size: 15px;
     }
 }
