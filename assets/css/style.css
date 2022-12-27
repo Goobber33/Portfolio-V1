@@ -8,7 +8,6 @@ body,
 html {
     height: 100%;
     background-image: url(/assets/images/Oceanside-pier\ 2.jpeg);
-    height: 100%;
     background-color: rgb(26, 39, 45);
     background-position: center;
     background-repeat: no-repeat;
@@ -36,7 +35,6 @@ html {
     width: 62%;
 }
 
-
 .header h1 {
     font-size: 48px;
     color: white;
@@ -44,12 +42,6 @@ html {
 
 .header h1 .lio {
     color: orange;
-}
-
-.navbar h1 {
-    font-family: tahoma;
-    color: white;
-    text-align: left;
 }
 
 .nav-links {
@@ -127,11 +119,9 @@ span[data-descr]:focus::after {
 
 .flex-one p {
     color: white;
-    padding-right: 10em;
 }
 
 .flex-one img {
-    padding-left: 4em;
     transition: all 0.1s;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
@@ -291,17 +281,57 @@ span[data-descr]:focus::after {
 }
 
 .footer h2 {
-    padding-top: 25em;
-    font-size: 20px;
+    padding-top: 24em;
+    font-size: 1.3em;
     color: white;
     clear: both;
     text-align: center;
 }
 
-@media screen and (max-width: 500px) {
-    .header h1 {
-        position: -webkit-sticky;
-        position: sticky;
-        bottom: 0;
+@media screen and (max-width: 1600px) {
+    .header h1::after {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .flex-one {
+        padding-top: 35em;
+    }
+
+    .surftwo {
+        display: none;
+    }
+    
+    .surfthree {
+        display: none;
+    }
+
+    .torchone {
+        display: none;
+    }
+
+    .nav-links {
+        min-width: 100%;
+        max-width: 100%;
+        min-width: 20vh;
+    }
+
+    .flex-one img {
+        max-width: 40%;
+    }
+
+    .flex-one p {
+        padding: 40px;
+    }
+
+    footer {
+        background-image: url(/assets/images/surfboard.png);
+        max-height: 60%;
+    }
+
+    .footer h2 {
+        padding-left: 3.4em;
     }
 }
