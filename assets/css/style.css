@@ -288,6 +288,8 @@ span[data-descr]:focus::after {
     text-align: center;
 }
 
+/*  */
+
 @media screen and (max-width: 1600px) {
     .header h1::after {
         display: none;
@@ -303,7 +305,7 @@ span[data-descr]:focus::after {
     .surftwo {
         display: none;
     }
-    
+
     .surfthree {
         display: none;
     }
