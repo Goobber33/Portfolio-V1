@@ -294,6 +294,34 @@ span[data-descr]:focus::after {
     }
 }
 
+@media screen and (max-width: 390px) {
+
+    .header h1 {
+        font-size: 20px;
+    }
+
+    .nav-links li a {
+        font-size: 13px;
+    }
+
+    .description h1 {
+        font-size: 20px;
+    }
+
+    .surfone {
+        width: 200px;
+    }
+
+    .projects img {
+        max-width: 350px;
+        max-height:350px;
+    }
+
+    .footer h2 {
+        color: black;
+    }
+}
+
 @media screen and (max-width: 768px) {
 
     .flex-one {
@@ -344,7 +372,7 @@ span[data-descr]:focus::after {
     }
 
     .flex-one {
-        padding-top: 300px;
+        padding-top: 340px;
     }
 
     .flex-one p {
