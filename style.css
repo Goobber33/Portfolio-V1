@@ -304,6 +304,11 @@ span[data-descr]:focus::after {
         font-size: 13px;
     }
 
+    .flex-one p {
+       max-height: 100%;
+       max-width: 50%;
+    }
+
     .description h1 {
         font-size: 20px;
     }
@@ -318,7 +323,8 @@ span[data-descr]:focus::after {
     }
 
     .footer h2 {
-        color: black;
+        color: white;
+        padding-right: 80px;
     }
 }
 
@@ -392,6 +398,6 @@ span[data-descr]:focus::after {
     }
 
     .footer h2 {
-        font-size: 15px;
+        padding-left: 80px;
     }
 }
