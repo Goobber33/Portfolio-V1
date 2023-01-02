@@ -71,6 +71,8 @@ html {
     color: #000814;
 }
 
+/* Biography paragraph at the top of the page */
+
 .description {
     text-align: center;
     font-size: 1.5em;
@@ -91,6 +93,8 @@ html {
     padding: 0.3em;
     color: var(--navy);
 }
+
+/* Tooltip box showing the effect of hovering over things on the page */
 
 span[data-descr] {
     position: relative;
@@ -123,9 +127,13 @@ span[data-descr]:focus::after {
     padding-top: 18em;
 }
 
+/* Side paragraph next to the hero image of myself */
+
 .hero p {
     color: var(--white);
 }
+
+/* Styling for the personal image of myself with hover effects */
 
 .hero img {
     transition: all 0.1s;
@@ -147,6 +155,8 @@ span[data-descr]:focus::after {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
 }
+
+/* The paragraph in between the hero image and surfboard/torch images */
 
 .side p {
     font-family: tahoma;
@@ -216,7 +226,7 @@ span[data-descr]:focus::after {
     -moz-filter: grayscale(0%);
 }
 
-/* Projects section with hover effects*/
+/* Projects section, four boxes in Desktop View and 2x2 in mobile */
 
 .projects {
     text-align: center;
@@ -248,6 +258,7 @@ span[data-descr]:focus::after {
     -moz-filter: grayscale(100%);
 }
 
+/* Hover effects for the surfboards */
 
 .projectone:hover {
     filter: grayscale(0%);
