@@ -4,11 +4,17 @@
     padding: 0;
 }
 
+:root {
+    --white: #ffffff;
+    --orange: #FFA500;
+    --navy: rgb(26, 39, 45);
+}
+
 body,
 html {
     height: 100%;
     background-image: url(images/Oceanside-pier\ 2.jpeg);
-    background-color: rgb(26, 39, 45);
+    background-color: var(--navy);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,22 +32,22 @@ html {
 
 .header h1:after {
     content: '';
-    background-color: orange;
+    background-color: var(--orange);
     height: 2px;
     display: block;
     position: absolute;
     top: 32px;
-    left: 5.7em;
+    left: 5.4em;
     width: 62%;
 }
 
 .header h1 {
     font-size: 48px;
-    color: white;
+    color: var(--white)
 }
 
 .header h1 .lio {
-    color: orange;
+    color: var(--orange);
 }
 
 .nav-links {
@@ -49,16 +55,16 @@ html {
     display: flex;
 }
 
-.nav-item a {
+.nav-links li a {
     font-size: 25px;
     display: inline-block;
     padding: 10px 15px;
     text-decoration: none;
-    color: white;
+    color: var(--white);
 }
 
 .nav-item:hover {
-    background-color: white;
+    background-color: var(--white);
 }
 
 .nav-item:hover a {
@@ -74,8 +80,8 @@ html {
 
 .description h1 {
     font-family: tahoma;
-    color: white;
-    text-decoration: underline orange;
+    color: var(--white);
+    text-decoration: underline var(--orange);
     text-underline-position: under;
     padding: 0.3em;
 }
@@ -83,12 +89,12 @@ html {
 .description p {
     font-family: tahoma;
     padding: 0.3em;
-    color: rgb(26, 39, 45);
+    color: var(--navy);
 }
 
 span[data-descr] {
     position: relative;
-    color: orange;
+    color: var(--orange);
     cursor: help;
 }
 
@@ -103,37 +109,37 @@ span[data-descr]:focus::after {
     border-radius: 10px;
     background-color: gray;
     padding: 12px;
-    color: white;
+    color: var(--white);
     font-size: 14px;
     z-index: 1;
 }
 
 /* Large interactive image of myself, and the paragrph to the right of it */
 
-.flex-one {
+.hero {
     font-size: 24px;
     display: flex;
     justify-content: space-evenly;
     padding-top: 18em;
 }
 
-.flex-one p {
-    color: white;
+.hero p {
+    color: var(--white);
 }
 
-.flex-one img {
+.hero img {
     transition: all 0.1s;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
 }
 
-.flex-one img {
+.hero img {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
 }
 
-.flex-one img:hover {
+.hero img:hover {
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
     -moz-filter: grayscale(0%);
@@ -148,7 +154,7 @@ span[data-descr]:focus::after {
     text-align: center;
     padding-top: 100px;
     font-size: 1.5em;
-    color: white;
+    color: var(--white);
 }
 
 /* Three surfboard section, evenly set to the middle of the page */
@@ -219,11 +225,11 @@ span[data-descr]:focus::after {
 }
 
 .projects h1 {
-    color: white;
+    color: var(--white);
     padding-bottom: 3em;
     font-size: 60px;
     text-align: center;
-    text-decoration: underline orange;
+    text-decoration: underline var(--orange);
     text-underline-position: under;
 }
 
@@ -231,7 +237,7 @@ span[data-descr]:focus::after {
 .projecttwo,
 .projectthree,
 .projectfour {
-    border: 7px solid orange;
+    border: 7px solid var(--orange);
     height: 26em;
     padding: 1.7em;
     transition: all 0.1s;
@@ -272,7 +278,7 @@ span[data-descr]:focus::after {
 .footer {
     background-image: url(images/surfboard.png);
     height: 100%;
-    background-color: rgb(26, 39, 45);
+    background-color: var(--navy);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -283,7 +289,7 @@ span[data-descr]:focus::after {
 .footer h2 {
     padding-top: 24em;
     font-size: 1.3em;
-    color: white;
+    color: var(--white);
     clear: both;
     text-align: center;
 }
