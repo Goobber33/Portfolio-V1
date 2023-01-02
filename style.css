@@ -182,6 +182,7 @@ span[data-descr]:focus::after {
 /* Surfboard one on the far left */
 
 .surfone {
+    width:90%;
     transition: all 0.1s;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
@@ -288,22 +289,42 @@ span[data-descr]:focus::after {
     -moz-filter: grayscale(0%);
 }
 
+/* Contact section */
+
+
+.contactinfo h4 {
+    color: var(--white);
+    padding-bottom: 1.5em;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline var(--orange);
+    text-underline-position: under;
+}
+
+.contactinfo p {
+    color: var(--white);
+    font-size: 24px;
+    margin: 3rem;
+    text-align: center;
+    color: var(--white);
+}
+
 /* Social Media links at the bottom of the page */
 
 .contact {
     display: flex;
     justify-content: space-evenly;
     align-content: flex-start;
-    padding-top: 200px;
-    margin: 20px;
 }
 
 .contact ul a {
+    display: inline-block;
     text-align: center;
     text-decoration: none;
     padding: 20px;
     font-size: 30px;
     width: 70px;
+    margin: 5px;
 }
 
 .fa:hover {
@@ -321,8 +342,8 @@ span[data-descr]:focus::after {
 }
 
 .fa-instagram {
-    background: #125688;
-    color: white;
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        color: white;
 }
 
 .fa-github {
@@ -369,7 +390,7 @@ span[data-descr]:focus::after {
         font-size: 13px;
     }
 
-    .flex-one p {
+    .hero p {
         height: 30px;
         max-width: 50%;
     }
@@ -397,7 +418,7 @@ span[data-descr]:focus::after {
 
 @media screen and (max-width: 768px) {
 
-    .flex-one {
+    .hero {
         padding-top: 35em;
     }
 
@@ -413,11 +434,11 @@ span[data-descr]:focus::after {
         min-width: 20vh;
     }
 
-    .flex-one {
+    .hero {
         padding-top: 380px;
     }
 
-    .flex-one img {
+    .hero img {
         max-width: 40%;
     }
 
@@ -434,39 +455,25 @@ span[data-descr]:focus::after {
 
 /* Media Query for landscape view on mobile devices/tablets */
 
-@media screen and (max-width: 827px) {
-
-    .description p {
-        font-size: 15px;
-    }
-
-    .surfthree,
-    .torchone,
-    .surftwo {
+@media screen and (max-width: 1440px) {
+    .torchone{
         display: none;
     }
 
-    .flex-one {
-        padding-top: 340px;
+    .surftwo, .surfthree {
+        display: none;
     }
 
-    .flex-one p {
-        font-size: 15px;
+    .surfone {
+        width: 30%;
     }
 
-    .flex-one img {
-        max-width: 40%;
-    }
-
-    .side p {
-        font-size: 15px;
-    }
-
-    .projects h3 {
-        font-size: 40px;
+    .projectone, .projecttwo, .projectthree, .projectfour  {
+        width: 40%;
+        height: 40%;
     }
 
     .footer p {
-        padding-left: 80px;
+        padding-left: 100px;
     }
 }
