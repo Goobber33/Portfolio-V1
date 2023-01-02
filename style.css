@@ -20,6 +20,7 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: tahoma;
 }
 
 /* Header styling */
@@ -101,30 +102,6 @@ html {
     color: var(--navy);
 }
 
-/* Tooltip box showing the effect of hovering over things on the page */
-
-span[data-descr] {
-    position: relative;
-    color: var(--orange);
-    cursor: help;
-}
-
-span[data-descr]:hover::after,
-span[data-descr]:focus::after {
-    content: attr(data-descr);
-    position: absolute;
-    left: 0;
-    top: 2.5em;
-    min-width: 200px;
-    border: 1px #aaaaaa solid;
-    border-radius: 10px;
-    background-color: gray;
-    padding: 12px;
-    color: var(--white);
-    font-size: 14px;
-    z-index: 1;
-}
-
 /* Large interactive image of myself, and the paragrph to the right of it */
 
 .hero {
@@ -172,6 +149,30 @@ span[data-descr]:focus::after {
     padding-top: 100px;
     font-size: 1.5em;
     color: var(--white);
+}
+
+/* Tooltip box showing the effect of hovering over things on the page */
+
+span[data-descr] {
+    position: relative;
+    color: var(--orange);
+    cursor: help;
+}
+
+span[data-descr]:hover::after,
+span[data-descr]:focus::after {
+    content: attr(data-descr);
+    position: absolute;
+    left: 0;
+    top: 2.5em;
+    min-width: 200px;
+    border: 1px #aaaaaa solid;
+    border-radius: 10px;
+    background-color: gray;
+    padding: 12px;
+    color: var(--white);
+    font-size: 14px;
+    z-index: 1;
 }
 
 /* Three surfboard section, evenly set to the middle of the page */
@@ -300,11 +301,11 @@ span[data-descr]:focus::after {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-left: 30px;
+    padding-left: 70px;
     padding-right: 10px;
 }
 
-.footer h4 {
+.footer p {
     padding-top: 24em;
     font-size: 1.3em;
     color: var(--white);
