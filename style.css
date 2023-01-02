@@ -288,8 +288,22 @@ span[data-descr]:focus::after {
     -moz-filter: grayscale(0%);
 }
 
-.fa {
+/* Social Media links at the bottom of the page */
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    padding-top: 200px;
+    margin: 20px;
+}
+
+.contact ul a {
+    text-align: center;
     text-decoration: none;
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
 }
 
 .fa:hover {
@@ -313,37 +327,26 @@ span[data-descr]:focus::after {
 
 .fa-github {
     color: white;
+    background: #333333;
 }
 
 /* Footer styling */
-
-.footer f {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-}
 
 .footer {
     background-image: url(images/surfboard.png);
     height: 100%;
     background-color: var(--navy);
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-left: 70px;
-    padding-right: 10px;
 }
 
 .footer p {
-    padding-top: 24em;
+    display: flex;
+    justify-content: center;
+    padding-top: 27em;
+    padding-left: 40px;
     font-size: 1.3em;
     color: var(--white);
-    clear: both;
-    text-align: center;
 }
 
 /* Media Query for the top orange line in between the header and nav bar */
@@ -418,7 +421,7 @@ span[data-descr]:focus::after {
         max-width: 40%;
     }
 
-    .footer h2 {
+    .footer p {
         padding-left: 3.4em;
         font-size: 12.7px;
     }
@@ -459,11 +462,11 @@ span[data-descr]:focus::after {
         font-size: 15px;
     }
 
-    .projects h1 {
+    .projects h3 {
         font-size: 40px;
     }
 
-    .footer h2 {
+    .footer p {
         padding-left: 80px;
     }
 }
