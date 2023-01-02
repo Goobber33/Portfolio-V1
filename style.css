@@ -4,6 +4,8 @@
     padding: 0;
 }
 
+/* Variable colors for the styling on the page */
+
 :root {
     --white: #ffffff;
     --orange: #FFA500;
@@ -19,6 +21,8 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* Header styling */
 
 .header {
     font-family: tahoma;
@@ -50,6 +54,8 @@ html {
     color: var(--orange);
 }
 
+/* Navigation bar styling and hover effect */
+
 .nav-links {
     list-style: none;
     display: flex;
@@ -80,7 +86,8 @@ html {
     letter-spacing: 1px;
 }
 
-.description h1 {
+.description h2 {
+    font-size: 40px;
     font-family: tahoma;
     color: var(--white);
     text-decoration: underline var(--orange);
@@ -234,10 +241,10 @@ span[data-descr]:focus::after {
     padding-bottom: 20em;
 }
 
-.projects h1 {
+.projects h3 {
     color: var(--white);
     padding-bottom: 3em;
-    font-size: 60px;
+    font-size: 40px;
     text-align: center;
     text-decoration: underline var(--orange);
     text-underline-position: under;
@@ -297,7 +304,7 @@ span[data-descr]:focus::after {
     padding-right: 10px;
 }
 
-.footer h2 {
+.footer h4 {
     padding-top: 24em;
     font-size: 1.3em;
     color: var(--white);
