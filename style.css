@@ -182,7 +182,7 @@ span[data-descr]:focus::after {
 /* Surfboard one on the far left */
 
 .surfone {
-    width: 90%;
+    width:90%;
     transition: all 0.1s;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
@@ -266,7 +266,7 @@ span[data-descr]:focus::after {
 .projectfive {
     border: 7px solid var(--orange);
     height: 30em;
-    width: 77.3%;
+    width: 76.6%;
     padding: 1.7em;
     transition: all 0.1s;
     -webkit-transition: all 0.2s;
@@ -361,8 +361,8 @@ span[data-descr]:focus::after {
 }
 
 .fa-instagram {
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    color: white;
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        color: white;
 }
 
 .fa-github {
@@ -437,8 +437,44 @@ span[data-descr]:focus::after {
 
 @media screen and (max-width: 768px) {
 
+    .header h1 {
+        font-size: 35px;
+    }
+
+    .nav-links {
+        min-width: 100%;
+        max-width: 100%;
+        min-width: 20vh;
+    } 
+
+    .nav-links li a {
+        font-size: 20px;
+    }
+
+    .description h2 {
+        font-size: 30px;
+    }
+
+    .description p {
+        font-size: 15px;
+    }
+
     .hero {
-        padding-top: 35em;
+        padding-top: 350px;
+    }
+
+    .hero img {
+        max-width: 40%;
+        padding: 20px;
+    }
+
+    .hero p {
+        padding: 20px;
+        font-size: 15px;
+    }
+
+    .side p {
+        font-size: 15px;
     }
 
     .surftwo,
@@ -447,56 +483,41 @@ span[data-descr]:focus::after {
         display: none;
     }
 
-    .nav-links {
-        min-width: 100%;
-        max-width: 100%;
-        min-width: 20vh;
+    .surfone {
+        width: 30%;
     }
 
-    .hero {
-        padding-top: 380px;
+    .projects h3 {
+        font-size: 30px;
     }
 
-    .hero img {
-        max-width: 40%;
+    .projectone, .projecttwo, .projectthree, .projectfour {
+        width: 40%;
+        height: 40%;
     }
 
-    .footer p {
-        padding-left: 3.4em;
-        font-size: 12.7px;
+    .projectfive {
+        height: 100%;
+        width: 80.6%;
+    }
+
+    .contactinfo h4 {
+        font-size: 30px;
+    }
+
+    .contactinfo p {
+        font-size: 15px;
     }
 
     footer {
         background-image: url(/assets/images/surfboard.png);
-        max-height: 60%;
+        max-height: 70%;
+    }
+
+    .footer p {
+        font-size: 9px;
     }
 }
 
 /* Media Query for landscape view on mobile devices/tablets */
 
-@media screen and (max-width: 1440px) {
-    .torchone {
-        display: none;
-    }
-
-    .surftwo,
-    .surfthree {
-        display: none;
-    }
-
-    .surfone {
-        width: 30%;
-    }
-
-    .projectone,
-    .projecttwo,
-    .projectthree,
-    .projectfour {
-        width: 40%;
-        height: 40%;
-    }
-
-    .footer p {
-        padding-left: 100px;
-    }
-}
