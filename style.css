@@ -248,12 +248,25 @@ span[data-descr]:focus::after {
     text-underline-position: under;
 }
 
+.projectfive {
+    border: 7px solid var(--orange);
+    height: 30em;
+    width: 77.3%;
+    padding: 1.7em;
+    transition: all 0.1s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+}
+
 .projectone,
 .projecttwo,
 .projectthree,
 .projectfour {
     border: 7px solid var(--orange);
-    height: 26em;
+    height: 22em;
     padding: 1.7em;
     transition: all 0.1s;
     -webkit-transition: all 0.2s;
@@ -284,6 +297,12 @@ span[data-descr]:focus::after {
 }
 
 .projectfour:hover {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+}
+
+.projectfive:hover {
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
     -moz-filter: grayscale(0%);
