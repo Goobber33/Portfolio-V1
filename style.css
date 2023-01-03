@@ -182,7 +182,7 @@ span[data-descr]:focus::after {
 /* Surfboard one on the far left */
 
 .surfone {
-    width:90%;
+    width: 90%;
     transition: all 0.1s;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
@@ -248,10 +248,12 @@ span[data-descr]:focus::after {
     text-underline-position: under;
 }
 
-.projectfive {
+.projectone,
+.projecttwo,
+.projectthree,
+.projectfour {
     border: 7px solid var(--orange);
-    height: 30em;
-    width: 77.3%;
+    height: 22em;
     padding: 1.7em;
     transition: all 0.1s;
     -webkit-transition: all 0.2s;
@@ -261,12 +263,10 @@ span[data-descr]:focus::after {
     -moz-filter: grayscale(100%);
 }
 
-.projectone,
-.projecttwo,
-.projectthree,
-.projectfour {
+.projectfive {
     border: 7px solid var(--orange);
-    height: 22em;
+    height: 30em;
+    width: 77.3%;
     padding: 1.7em;
     transition: all 0.1s;
     -webkit-transition: all 0.2s;
@@ -361,8 +361,8 @@ span[data-descr]:focus::after {
 }
 
 .fa-instagram {
-        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-        color: white;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    color: white;
 }
 
 .fa-github {
@@ -475,11 +475,12 @@ span[data-descr]:focus::after {
 /* Media Query for landscape view on mobile devices/tablets */
 
 @media screen and (max-width: 1440px) {
-    .torchone{
+    .torchone {
         display: none;
     }
 
-    .surftwo, .surfthree {
+    .surftwo,
+    .surfthree {
         display: none;
     }
 
@@ -487,7 +488,10 @@ span[data-descr]:focus::after {
         width: 30%;
     }
 
-    .projectone, .projecttwo, .projectthree, .projectfour  {
+    .projectone,
+    .projecttwo,
+    .projectthree,
+    .projectfour {
         width: 40%;
         height: 40%;
     }
