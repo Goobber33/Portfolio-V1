@@ -12,7 +12,9 @@
         display: none;
     }
 
-    .surfone, .surftwo, .surfthree {
+    .surfone,
+    .surftwo,
+    .surfthree {
         width: 40%;
     }
 
@@ -256,4 +258,10 @@
 
 }
 
-@media screen and (max-width: 390px)
+@media screen and (max-width: 320px) {
+
+    .hero {
+        padding-top: 100px;
+    }
+
+}
