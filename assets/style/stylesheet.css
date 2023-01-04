@@ -8,6 +8,11 @@
 
 @media screen and (max-width: 1440px) {
 
+    body,
+    html {
+        font-family: tahoma !important
+    }
+
     .torchone {
         display: none;
     }
@@ -27,6 +32,12 @@
 /* Media Query for Laptops */
 
 @media screen and (max-width: 1024px) {
+
+
+    body,
+    html {
+        font-family: tahoma !important
+    }
 
     .hero img {
         max-width: 30%;
@@ -72,6 +83,11 @@
 /* Media Query for 768px tablet/mobile devices */
 
 @media screen and (max-width: 768px) {
+
+
+    body, html {
+        font-family: tahoma!important
+    }
 
     .header h1 {
         font-size: 35px;
@@ -163,6 +179,11 @@
 
 @media screen and (max-width: 430px) {
 
+
+    body, html {
+        font-family: tahoma!important
+    }
+
     .header h1 {
         font-size: 20px;
     }
@@ -221,6 +242,11 @@
 }
 
 @media screen and (max-width: 390px) {
+
+
+    body, html {
+        font-family: tahoma!important
+    }
 
     .header h1 {
         font-size: 24px;
