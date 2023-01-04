@@ -1,12 +1,14 @@
 /* Media Query for the top orange line in between the header and nav bar */
 
-@media screen and (max-width: 1920px) {
-    .header h1::after {
-        display: none;
-    }
-}
 
 @media screen and (max-width: 1440px) {
+
+    .description h2 {
+        font-size: 25px;
+        color: var(--white);
+        text-decoration: underline var(--orange);
+        text-underline-position: under;
+    }
 
     .torchone {
         display: none;
@@ -28,6 +30,13 @@
 
 @media screen and (max-width: 1024px) {
 
+    .description h2 {
+        font-size: 25px;
+        color: var(--white);
+        text-decoration: underline var(--orange);
+        text-underline-position: under;
+    }
+
 
     .hero img {
         max-width: 30%;
@@ -37,6 +46,7 @@
     .hero p {
         padding: 50px;
     }
+    
 
     .surfone {
         width: 30%;
