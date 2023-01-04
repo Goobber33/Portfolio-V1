@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: tahoma;
+    font-family: signika;
 }
 
 /* Variable colors for the styling on the page */
@@ -21,7 +21,6 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: tahoma;
 }
 
 /* Header styling */
