@@ -6,10 +6,6 @@
     }
 }
 
-/* Media Query for 390px mobile devices, example: iPhone 13 pro */
-
-
-
 /* Media Query for 768px tablet/mobile devices */
 
 @media screen and (max-width: 768px) {
@@ -100,10 +96,6 @@
 }
 
 @media screen and (max-width: 430px) {
-
-    * {
-        font-family: tahoma;
-    }
 
     .header h1 {
         font-size: 20px;
