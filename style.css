@@ -89,7 +89,7 @@ html {
 .description h2 {
     font-size: 40px;
     color: var(--white);
-    text-decoration: underline var(--orange);
+    text-decoration: underline orange;
     text-underline-position: under;
     padding: 0.3em;
 }
