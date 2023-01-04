@@ -95,6 +95,9 @@
     }
 }
 
+
+/* Medias Query for mobile devices of 430px */
+
 @media screen and (max-width: 430px) {
 
     .header h1 {
