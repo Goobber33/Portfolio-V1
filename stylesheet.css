@@ -1,9 +1,70 @@
 /* Media Query for the top orange line in between the header and nav bar */
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1920px) {
     .header h1::after {
         display: none;
     }
+}
+
+@media screen and (max-width: 1440px) {
+
+    .torchone {
+        display: none;
+    }
+
+    .surfone, .surftwo, .surfthree {
+        width: 40%;
+    }
+
+    .projectfive {
+        width: 89.4%;
+    }
+
+}
+
+/* Media Query for Laptops */
+
+@media screen and (max-width: 1024px) {
+
+    .hero img {
+        max-width: 30%;
+        padding-left: 50px;
+    }
+
+    .hero p {
+        padding: 50px;
+    }
+
+    .surfone {
+        width: 30%;
+    }
+
+    .surftwo,
+    .surfthree,
+    .torchone {
+        display: none;
+    }
+
+    .projectfive {
+        width: 90.5%;
+    }
+
+    .projectone,
+    .projecttwo,
+    .projectthree,
+    .projectfour {
+        width: 45%;
+        height: 45%;
+    }
+
+    .contact {
+        padding-bottom: 100px;
+    }
+
+    .footer p {
+        padding: 1px;
+    }
+
 }
 
 /* Media Query for 768px tablet/mobile devices */
@@ -33,7 +94,7 @@
     }
 
     .hero {
-        padding-top: 350px;
+        padding-top: 500px;
     }
 
     .hero img {
@@ -117,16 +178,30 @@
         font-size: 11px;
     }
 
-     .hero p {
+    .hero p {
         font-size: 11px;
     }
 
-    .side p, .contactinfo p{
+    .side p,
+    .contactinfo p {
         font-size: 11px;
     }
 
     .projects h3 {
         font-size: 25px;
+    }
+
+    .projectone,
+    .projecttwo,
+    .projectthree,
+    .projectfour {
+        width: 47%;
+        height: 42%;
+    }
+
+    .projectfive {
+        height: 100%;
+        width: 95.1%;
     }
 
     .contactinfo h4 {
@@ -180,3 +255,5 @@
     }
 
 }
+
+@media screen and (max-width: 390px)
