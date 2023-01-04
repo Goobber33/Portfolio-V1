@@ -16,7 +16,7 @@
 body,
 html {
     height: 100%;
-    background-image: url(/assets/images/Oceanside-pier\ 2.jpeg);
+    background-image: url(images/Oceanside-pier\ 2.jpeg);
     background-color: var(--navy);
     background-position: center;
     background-repeat: no-repeat;
@@ -374,7 +374,7 @@ span[data-descr]:focus::after {
 /* Footer styling */
 
 .footer {
-    background-image: url(/assets/images/surfboard.png);
+    background-image: url(images/surfboard.png);
     height: 100%;
     background-color: var(--navy);
     background-repeat: no-repeat;
