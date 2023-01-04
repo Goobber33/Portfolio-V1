@@ -142,10 +142,6 @@
 
 @media screen and (max-width: 390px) {
 
-    * {
-        font-family: tahoma;
-    }
-
     .header h1 {
         font-size: 24px;
     }
@@ -157,6 +153,13 @@
 
     .description h2 {
         font-size: 24px;
+        text-decoration: underline var(--orange);
+        text-underline-position: under;
+        font-family: tahoma;
+    }
+
+    .description p {
+        font-family: tahoma;
     }
 
     .contact {
