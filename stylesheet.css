@@ -118,10 +118,28 @@
         font-size: 11px;
     }
 
-
-
      .hero p {
         font-size: 11px;
+    }
+
+    .side p, .contactinfo p{
+        font-size: 11px;
+    }
+
+    .projects h3 {
+        font-size: 20px;
+    }
+
+    .contactinfo h4 {
+        font-size: 20px;
+    }
+
+    .contact {
+        padding-bottom: 80px;
+    }
+
+    .footer p {
+        padding: 1px;
     }
 
 }
