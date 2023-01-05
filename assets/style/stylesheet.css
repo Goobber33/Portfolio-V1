@@ -203,6 +203,10 @@
         font-size: 11px;
     }
 
+    .hero {
+        margin-top: -100px;
+    }
+
     .hero p {
         font-size: 11px;
     }
@@ -210,6 +214,15 @@
     .side p,
     .contactinfo p {
         font-size: 11px;
+        margin-top: -20px;
+    }
+
+    .surfboards {
+        margin-top: -90px;
+    }
+
+    .projects {
+        margin-top: -160px;
     }
 
     .projects h3 {
@@ -231,10 +244,6 @@
 
     .contactinfo h4 {
         font-size: 25px;
-    }
-
-    .contact {
-        padding-bottom: 80px;
     }
 
     .footer p {
