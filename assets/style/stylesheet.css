@@ -89,6 +89,11 @@
 
 @media screen and (max-width: 768px) {
 
+       .header h1::after {
+        display: none;
+    }
+}
+
     .header h1 {
         font-size: 35px;
     }
@@ -172,7 +177,6 @@
     .footer p {
         font-size: 9px;
     }
-}
 
 
 /* Medias Query for mobile devices of 430px */
