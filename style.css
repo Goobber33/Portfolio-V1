@@ -13,6 +13,8 @@
     --navy: rgb(26, 39, 45);
 }
 
+/* html and body styling with the top background of the beach and pier */
+
 body,
 html {
     height: 100%;
@@ -57,6 +59,8 @@ html {
     text-decoration: none;
     color: var(--white);
 }
+
+/* Navigation hover effecrs */
 
 .nav-item:hover {
     background-color: var(--white);
@@ -252,6 +256,8 @@ span[data-descr]:focus::after {
     -moz-filter: grayscale(100%);
 }
 
+/* Project Five on top of the four projects */
+
 .projectfive {
     border: 7px solid var(--orange);
     height: 30em;
@@ -265,7 +271,7 @@ span[data-descr]:focus::after {
     -moz-filter: grayscale(100%);
 }
 
-/* Hover effects for the surfboards */
+/* Hover effects for the projects */
 
 .projectone:hover {
     filter: grayscale(0%);
@@ -334,6 +340,8 @@ span[data-descr]:focus::after {
     width: 70px;
     margin: 5px;
 }
+
+/* Social Media Icon Styling */
 
 .fa:hover {
     opacity: 0.7;
