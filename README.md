@@ -12,13 +12,13 @@ Install the index.html, style.css, and stylesheet.css and the images folder and 
 
 # Usage
 
- A screenshot of some sections of code from my HTML and CSS for this project. The website should resemble this screenshot when deployed.
+ A screenshot of some sections of code from my HTML and CSS for this project. 
 
 ![HTML](images/html.jpg)
 
 ![CSS](images/css.jpg)
 
-Screenshots of the website
+Screenshots of the website. The website should resemble this screenshot when deployed.
 
 ![first](images/first.jpg)
 
